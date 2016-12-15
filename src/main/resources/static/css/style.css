@@ -20,6 +20,27 @@ svg{
   position: relative;
   overflow: hidden;
   margin: 0 auto;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #419871;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100%;
+}
+
+g.text {
+  font-size: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  color: white;
 }
 
 body {
@@ -7068,4 +7089,10 @@ article .author  {
 }
 article .author  {
   content: '\2014 \00A0';
+}
+.imgcont{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }

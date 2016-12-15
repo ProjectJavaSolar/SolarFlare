@@ -7069,3 +7069,9 @@ article .author  {
 article .author  {
   content: '\2014 \00A0';
 }
+.imgcont{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
