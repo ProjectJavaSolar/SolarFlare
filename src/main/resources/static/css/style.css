@@ -153,8 +153,7 @@ sub {
   bottom: -0.25em;
 }
 img {
-    border: 0;
-
+  border: 0;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -1179,10 +1178,7 @@ figure {
   margin: 0;
 }
 img {
-    width: 430px;
-    height: 300px;
-    position: relative;
-    bottom: 90px;
+  vertical-align: middle;
 }
 .img-responsive,
 .thumbnail > img,
@@ -1333,45 +1329,28 @@ h6 .small,
 }
 h1,
 .h1 {
-    font-size: 130px;
-    position: relative;
-    right: -550px;
-    font-family: ar destine;
-    color: white;
+  font-size: 39px;
 }
 h2,
 .h2 {
-    font-size: 50px;
-    font-family: ar destine;
-    position: relative;
-    top: -90px;
-    right: -70px;
-    color: white;
+  font-size: 32px;
 }
 h3,
 .h3 {
-    font-size: 60px;
-    font-family: ar destine;
-    color: white;
-    position: relative;
-    top: -340px;
-    right: -760px;
+  font-size: 26px;
 }
 h4,
 .h4 {
-    font-size: 39px;
-    font-family: agency fb;
+  font-size: 19px;
 }
 h5,
 .h5 {
-    font-size: 30px;
-    color: white;
-    font-family: agency fb;
-    position: relative;
-    top: -170px;
-    right: -70px;
+  font-size: 15px;
 }
-
+h6,
+.h6 {
+  font-size: 13px;
+}
 p {
   margin: 0 0 10.5px;
 }
@@ -1666,10 +1645,10 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.13);
-    color: #e6e6e6;
-    font-family: agency-fb;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 @media (min-width: 768px) {
   .container {
@@ -1683,10 +1662,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-      width: 1080px;
-      position: relative;
-      right: -540px;
-      top: -440px;
+    width: 1170px;
   }
 }
 .container-fluid {
@@ -2683,9 +2659,6 @@ fieldset[disabled] .form-control {
 }
 textarea.form-control {
   height: auto;
-    position: relative;
-    top: -130px;
-    right:440px;
 }
 input[type="search"] {
   -webkit-appearance: none;
